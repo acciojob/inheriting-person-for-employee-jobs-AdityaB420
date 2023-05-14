@@ -11,7 +11,7 @@ function Employee(name, age, jobTitle) {
 	this.age=age;
 	this.jobTitle=jobTitle;
 }
-Eerson.prototype.jobGreet=function(){
+Employee.prototype.jobGreet=function(){
 	return "Hello,my name is ${this.name}, I am ${this.age} years old,
 		 and my job title is ${this.jobTitle}";
 }
